@@ -97,11 +97,6 @@ def divide(a: float, b: float):
         "result": a / b
     }
 
-
-# -------------------------
-# CUSTOM ENDPOINTS (Part 2)
-# -------------------------
-
 @app.get("/average/{a}/{b}/{c}", status_code=200)
 def average(a: float, b: float, c: float):
     """
